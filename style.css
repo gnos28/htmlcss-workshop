@@ -51,8 +51,18 @@ header {
   min-height: 250px;
   background-image: url("https://loremflickr.com/cache/resized/65535_51531099974_bd7e65e7c6_h_1200_300_nofilter.jpg");
   background-position: top center;
+  
+  max-height: 284px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    background-position: top center;
+    background-size: 100%;
+    max-height: 284px;
+  }
 }
 
 header > h1 {
